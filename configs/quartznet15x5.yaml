@@ -156,6 +156,8 @@ model:
       min_lr: 0.0000001
       last_epoch: -1
 
+model_path: model/turkish_fine-tuned_model.onnx
+
 trainer:
   gpus: 0 # number of gpus
   max_epochs: 1
